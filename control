@@ -2,9 +2,9 @@ Package: com.clarityzzz.fuckdonalds
 Name: FuckDonalds
 Depends: mobilesubstrate, firmware (>= 10.0)
 Priority: optional
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: Fuckdonalds
-Maintainer: Clarity <clarityzzz@clarityzzz.com>
-Author: Clarity <clarityzzz@clarityzzz.com>
+Maintainer: Clarity & Tr1Fecta
+Author: Clarity & Tr1Fecta
 Section: Tweaks
