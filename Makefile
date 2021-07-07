@@ -1,5 +1,5 @@
-ARCHS = arm64
-TARGET = iphone:clang:11.2:10.0
+ARCHS = arm64 arm64e
+TARGET = iphone:clang:13.3:13.0
 
 include $(THEOS)/makefiles/common.mk
 
@@ -11,4 +11,4 @@ FuckDonalds_CFLAGS = -fobjc-arc
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
-	install.exec "killall -9 com.mcdonalds.mobileapp"
+	install.exec "killall -9 com.mcdonalds.mobileapp; open com.mcdonalds.mobileapp"
